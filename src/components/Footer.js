@@ -13,9 +13,6 @@ function Footer() {
   return (
     <Container fluid className="footer">
       <Row>
-        {/* <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Soumyajit Behera</h3>
-        </Col> */}
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year}</h3>
         </Col>
@@ -31,16 +28,7 @@ function Footer() {
                 <AiFillGithub />
               </a>
             </li>
-            {/* <li className="social-icons">
-              <a
-                href="https://twitter.com/Soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li> */}
+           
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/anthony-younes-38988136a"
