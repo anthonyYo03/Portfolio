@@ -12,7 +12,8 @@ import {
   SiMongodb,
   SiMicrosoftsqlserver,
   SiGit,
-  SiPostman
+  SiPostman,
+  SiPostgresql
 } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 
@@ -73,6 +74,11 @@ function Techstack() {
         <SiMicrosoftsqlserver fontSize={"24px"} color="#CC2927" />
         <div className="tech-icons-text">Microsoft SQL Server</div>
       </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+  <SiPostgresql fontSize={"24px"} color="#336791" />
+  <div className="tech-icons-text">PostgreSQL</div>
+</Col>
 
       <Col xs={4} md={2} className="tech-icons">
         <SiGit fontSize={"24px"} color="#F05032" />
