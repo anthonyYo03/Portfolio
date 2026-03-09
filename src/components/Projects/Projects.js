@@ -4,6 +4,8 @@ import Particle from "../Particle";
 import VacationApp from "../../Assets/Projects/VacationApp.png"
 import ToDoListApplication from "../../Assets/Projects/ToDoListApplication.png"
 import SocketIoNotification from "../../Assets/Projects/SocketIoNotification.png"
+import HrApplication from "../../Assets/Projects/HrApplication.png"
+
 
 
 function Projects() {
@@ -21,6 +23,23 @@ function Projects() {
          Note: When opening a project, the initial load may take a few seconds due to server cold start.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+         <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={HrApplication}
+              isBlog={false}
+              title="HR APPLICATION"
+              description="A full-stack HR management application built with the MERN stack (MongoDB, Express.js, React, Node.js) featuring role-based access for two types of users: HR and Employees. The application includes functionalities such as JWT authentication, OTP verification, password reset, real-time notifications with Socket.IO, pagination, and other management features.
+Employees can submit requests and report issues, while HR can review and update their status. HR users can also post announcements and assign tasks to employees, and employees can update the status of their assigned tasks."
+              ghLink="https://github.com/anthonyYo03/HR_APP_FRONTEND.git"
+              ghLinkBackend="https://github.com/anthonyYo03/HR_APP_BACKEND.git"
+              demoLink="https://hr-app-frontend.vercel.app/"
+            />
+          </Col>
+
+
+
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ToDoListApplication}
