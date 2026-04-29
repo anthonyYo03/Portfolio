@@ -13,7 +13,9 @@ import {
   SiMicrosoftsqlserver,
   SiGit,
   SiPostman,
-  SiPostgresql
+  SiPostgresql,
+  SiNextdotjs,
+  SiVercel
 } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 
@@ -63,6 +65,16 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiReact fontSize={"24px"} color="#61DAFB" />
         <div className="tech-icons-text">React.Js</div>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNextdotjs fontSize={"24px"} color="#FFFFFF" />
+        <div className="tech-icons-text">Next.Js</div>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiVercel fontSize={"24px"} color="#FFFFFF" />
+        <div className="tech-icons-text">Vercel</div>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
