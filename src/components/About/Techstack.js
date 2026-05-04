@@ -15,7 +15,9 @@ import {
   SiPostman,
   SiPostgresql,
   SiNextdotjs,
-  SiVercel
+  SiVercel,
+  SiNetlify,
+  SiSupabase
 } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 
@@ -75,6 +77,16 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiVercel fontSize={"24px"} color="#FFFFFF" />
         <div className="tech-icons-text">Vercel</div>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNetlify fontSize={"24px"} color="#00C7B7" />
+        <div className="tech-icons-text">Netlify</div>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSupabase fontSize={"24px"} color="#3DB0C8" />
+        <div className="tech-icons-text">Supabase</div>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
