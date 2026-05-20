@@ -5,7 +5,7 @@ import VacationApp from "../../Assets/Projects/VacationApp.png"
 import ToDoListApplication from "../../Assets/Projects/ToDoListApplication.png"
 import SocketIoNotification from "../../Assets/Projects/SocketIoNotification.png"
 import HrApplication from "../../Assets/Projects/HrApplication.png"
-
+import NewsApplication from "../../Assets/Projects/NewsApplication.png"
 
 
 function Projects() {
@@ -23,6 +23,20 @@ function Projects() {
          Note: When opening a project, the initial load may take a few seconds due to server cold start.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+<Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={NewsApplication}
+              isBlog={false}
+              title="NEWS APPLICATION"
+              description="Developed a News Application with role-based authentication and authorization for Readers, Journalists, and Admins. Unauthenticated users can browse news content, while Readers can interact through likes, comments, and sharing. Journalists can additionally create and publish articles, and Admins have full user management capabilities with CRUD operations."
+              ghLink="https://github.com/anthonyYo03/news_App_FRONTEND.git"
+              ghLinkBackend="https://github.com/anthonyYo03/news_App_BACKEND.git" 
+              demoLink="https://antonewsapplication.netlify.app/"
+            />
+          </Col>
+
+
 
          <Col md={4} className="project-card">
             <ProjectCard
