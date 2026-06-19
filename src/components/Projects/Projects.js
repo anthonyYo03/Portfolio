@@ -6,6 +6,7 @@ import ToDoListApplication from "../../Assets/Projects/ToDoListApplication.png"
 import SocketIoNotification from "../../Assets/Projects/SocketIoNotification.png"
 import HrApplication from "../../Assets/Projects/HrApplication.png"
 import NewsApplication from "../../Assets/Projects/NewsApplication.png"
+import IlamajApplication from "../../Assets/Projects/ilamaj.png"
 
 
 function Projects() {
@@ -23,6 +24,19 @@ function Projects() {
          Note: When opening a project, the initial load may take a few seconds due to server cold start.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+
+<Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={IlamajApplication}
+              isBlog={false}
+              title="CROCHET APPLICATION"
+              description="Ilamaj is a product catalog and ordering platform built for a handmade crochet brand. Customers can browse products and place orders instantly via WhatsApp with a single click. The app also includes a secure admin dashboard where the owner can add, edit, and delete products."
+              ghLink="https://github.com/anthonyYo03/crochet_ilamage_frontend.git"
+              ghLinkBackend="https://github.com/anthonyYo03/crochet_ilamage_backend.git" 
+              demoLink="https://crochet-ilamage-frontend.vercel.app/"
+            />
+          </Col>
 
 <Col md={4} className="project-card">
             <ProjectCard
